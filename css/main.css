@@ -11,7 +11,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  background: rgba(26,35,126 ,1) url('http://www.beeldengeluid.nl/sites/default/files/styles/grid-4x4/public/0000021070_BeeldenGeluid02_low.jpg') no-repeat center center fixed;
   background-size: cover;
 
   color: rgba(232,234,246 ,1);
