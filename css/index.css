@@ -62,7 +62,7 @@ body{
 
 
 
-.artists-content-container {
+.browse-content-container {
     padding-top: 16px;
     padding-bottom: 16px;
     background: #fff;
@@ -77,19 +77,19 @@ body{
     min-height: 85vh;
 }
 
-.artist a figure {
+.item a figure {
     display: block;
     margin: 0;
     padding: 0;
 }
 
-.artist a figure img{
+.item a figure img{
     width: 100%;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
     transition: all 268ms ease-out 0s;
 }
-.artist a figure > figcaption {
+.item a figure > figcaption {
     position: absolute;
     left: 50%;
     bottom: 25px;
@@ -101,7 +101,7 @@ body{
     color: #fff;
 }
 
-.artist a:hover figure img{
+.item a:hover figure img{
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
     transition: all 268ms ease-out 0s;
