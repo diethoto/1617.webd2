@@ -1,0 +1,44 @@
+.img_wrapper{
+    min-height: 75vh;
+}
+.img_about{
+    width: 75%;
+    display: inline-block;
+}
+
+.aboutus h1{
+    text-align: center;
+    color: #F1B4FF;
+    margin-left: -100px;
+    display: block;
+}
+
+.title_about{
+    font-size: 48px;
+    text-shadow: 3px 2px rgba(0,0,0,0.2);
+}
+
+.text-aboutus{
+    margin-left: -100px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .img-box{ display: none;}
+    .text-aboutus, .aboutus h1{margin: 0;}
+    body{overflow-y: scroll;}
+}
+
+@media screen and (max-width: 680px) {
+    .img_about{
+        display: none;
+    }
+    .text-aboutus{
+        margin-left: 0;
+    }
+}
+

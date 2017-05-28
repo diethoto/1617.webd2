@@ -1,0 +1,79 @@
+.social_wrapper{
+    min-height: 75vh;
+}
+
+.title_social{
+    text-align: center;
+    color: #F1B4FF;
+    font-size: 48px;
+    padding: 5px;
+    text-shadow: 3px 2px rgba(0,0,0,0.2);
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+.icons {
+ 
+  
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: transparent;
+    
+}
+
+.icon1 {
+    width: 50px;
+    height: 50px;
+    background: #125688;
+    border-radius: 50%;
+    margin: 5px 2px;
+    display: inline-block;
+    
+}
+
+.icon2{
+    width: 50px;
+    height: 50px;
+    background: #55ACEE;
+    border-radius: 50%;
+    margin: 5px 2px;
+    display: inline-block;
+}
+
+
+
+
+.icon3{
+    width: 50px;
+    height: 50px;
+    background: #3B5998;
+    border-radius: 50%;
+    margin: 5px 2px;
+    display: inline-block;
+    
+}
+
+.text_icon{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+    position: relative;
+    top: -25px;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}

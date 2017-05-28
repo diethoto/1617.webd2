@@ -1,0 +1,35 @@
+.item {
+    width: 75%;
+}
+
+.button_portfolio-link{
+    display: block;
+    text-decoration: none;
+}
+.button_portfolio {
+    display: block;
+    background-color: transparent;
+    color: #00FFC6;
+    padding: 12px 20px;
+    border: 2px solid #00FFC6;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+
+.button_portfolio:hover {
+    background-color: #00FFC6;
+    color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+    .item{
+        padding: 10px;
+    }
+    .button_portfolio{
+        margin: 10px 0 10px 0;
+    }
+}

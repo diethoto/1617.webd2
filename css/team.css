@@ -1,0 +1,33 @@
+.title_team{
+    text-align: center;
+    color: #F1B4FF;
+    font-size: 48px;
+    padding: 5px;
+    text-shadow: 3px 2px rgba(0,0,0,0.2);
+}
+
+.img_team{
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.sub_team{
+    text-align: center;
+    color: #00FFC6;
+    font-size: 28px;
+}
+
+.team_wrapper{
+    min-height: 75vh;
+}
+
+
+@media screen and (max-width: 1140px) {
+    .text{
+        text-align: center;
+        width: 90%;
+        padding-bottom: 10px;
+    }
+}

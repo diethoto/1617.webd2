@@ -10,19 +10,56 @@ html, body {
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+    overflow-x: hidden;
+  /*
   background: rgba(26,35,126 ,1) url('http://www.beeldengeluid.nl/sites/default/files/styles/grid-4x4/public/0000021070_BeeldenGeluid02_low.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-size: cover; */
 
-  color: rgba(232,234,246 ,1);
 }
 
-.intro {
-  width: 90vw;
 
-  padding: 1rem;
-  margin-top: 1rem;
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+.banner_wrapper{
+    background-color: rgba(0,0,0,0.5);
+    min-height: 15vh;
+    text-align: center;
+    line-height: 7;
+    
+    
 }
+
+.banner_link{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    height: 100%;
+    line-height: 7;
+}
+
+.banner_icons{
+    float: left;
+    display: inline-block;
+    position: relative;
+    top: 6vh;
+    margin-left: 50px; 
+}
+
+@media screen and (max-width: 960px) {
+    .banner_icons{
+        float: none;
+        margin: 0;
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+

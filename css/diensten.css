@@ -1,0 +1,34 @@
+.title_service{
+    text-align: center;
+    color: #F1B4FF;
+    font-size: 48px;
+    padding: 5px;
+    text-shadow: 3px 2px rgba(0,0,0,0.2);
+
+}
+
+.sub_service{
+    text-align: center;
+    color: #00FFC6;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.img_service{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    padding-top: 10px;
+
+}
+p {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 75%;
+    padding-bottom: 10px;
+}
+
+.service_wrapper{
+    min-height: 70vh;
+}

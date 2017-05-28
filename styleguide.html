@@ -47,15 +47,116 @@
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/navigation.css">
+    <link rel="stylesheet" media="all" href="css/grid_resp_mf.css">
+    <link rel="stylesheet" media="all" href="css/styleguide.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 </head>
   </head>
   <body>
-    <div class="intro">
-      <h1>Styleguide</h1>
-      
+      <!-- NAVIGATION -->
+  <div class="navigation" id="navigation">
+        <div class="grid__wrapper navigation_wrapper">
+            <div class="grid__container">
+                <div class="grid__row">
+                    <div class="grid__bp0-column-12">
+                        <div class="topnav" id="myTopnav">
+                            <a href="index.html" class="active">Home</a>
+                            <a href="about.html">About</a>
+                            <a href="diensten.html">Diensten</a>
+                            <a href="team.html">Team</a>
+                            <a href="portfolio.html">Portfolio</a>
+                            <a href="contact.html" >Contact</a>                                   
+                            <a href="social.html" >Social</a>                                     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+      
+    <div class="grid__wrapper">
+        <div class="grid__container">
+            <div class="grid__row">
+                <div class="grid__bp0-column-12"> 
+                    <div class="div_title">
+                         <h1 class="title">Styleguide</h1>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="grid__wrapper">
+        <div class="grid__container">
+            <div class="grid__row">
+                <div class="grid__bp0-column-12"> 
+                    <div>
+                         <h1 class="sub">Sub title</h1>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <div class="grid__wrapper styleguide_wrapper">
+        <div class="grid__container">
+            <div class="grid__row">
+                <div class="grid__bp0-column-12">
+                    <div class="container">
+                        <form action="" method="post" enctype="text/plain">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                            <label for="message">Message</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+                            <input type="submit" value="Voorbeeld knop">
+                        </form>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <!--Banner-->
+    <div class="grid__wrapper banner_wrapper">
+        <div class="grid__container">
+            <div class="grid__row">
+                <div class="grid__bp5-column-4 grid__bp4-column-4 grid__bp3-column-12">
+                    <a class="banner_link" href="styleguide.html">Styleguide</a>
+                </div>
+                <div class="grid__bp5-column-4 grid__bp4-column-4 grid__bp3-column-12">
+                        
+                    <div>
+                        <a href="https://www.instagram.com/arteveldehogeschool/">
+                            <img class="banner_icons" src="assets/images/instagram.png" width="30px" height="30px">
+                        </a>
+                    </div>
+                        
+                    <div>  
+                        <a href="https://twitter.com/arteveldehsgent?lang=nl">
+                            <img class="banner_icons" src="assets/images/twitter.png" width="30px" height="30px">
+                        </a>
+                    </div>
+                        
+                    <div>
+                        <a href="https://www.facebook.com/arteveldehogeschool/">
+                            <img class="banner_icons" src="assets/images/facebook.png" width="30px" height="30px">
+                        </a>
+                    </div>
+                        
+                </div>
+                <div class="grid__bp5-column-4 grid__bp4-column-4 grid__bp3-column-12">
+                    <a href="#" class="banner_link">Playtime's Over</a>
+                </div>
+            </div>
+          </div>
+      </div>
+      <!-- End banner -->
+                    
+                    
     <!-- Scripts: Vendors -->
       <!-- For example: jQuery, lodash, handlebars, ... -->
     <!-- Scripts: App -->
